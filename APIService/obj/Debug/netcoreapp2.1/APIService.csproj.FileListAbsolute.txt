@@ -1,0 +1,9 @@
+D:\Hospitallity\WebBedsTest\APIService\bin\Debug\netcoreapp2.1\APIService.deps.json
+D:\Hospitallity\WebBedsTest\APIService\bin\Debug\netcoreapp2.1\APIService.dll
+D:\Hospitallity\WebBedsTest\APIService\bin\Debug\netcoreapp2.1\APIService.pdb
+D:\Hospitallity\WebBedsTest\APIService\obj\Debug\netcoreapp2.1\APIService.csproj.CoreCompileInputs.cache
+D:\Hospitallity\WebBedsTest\APIService\obj\Debug\netcoreapp2.1\APIService.AssemblyInfoInputs.cache
+D:\Hospitallity\WebBedsTest\APIService\obj\Debug\netcoreapp2.1\APIService.AssemblyInfo.cs
+D:\Hospitallity\WebBedsTest\APIService\obj\Debug\netcoreapp2.1\APIService.dll
+D:\Hospitallity\WebBedsTest\APIService\obj\Debug\netcoreapp2.1\APIService.pdb
+D:\Hospitallity\WebBedsTest\APIService\obj\Debug\netcoreapp2.1\APIService.csprojAssemblyReference.cache

@@ -1,0 +1,60 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    
+    
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    Select Destination:
+                </td>
+                <td>
+                    <select id="ddlDestination">
+                        <option value="0">Select Destination</option>
+                        <option value="279"> India </option>
+                        <option value="1419"> Spain </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    No of Nights:
+                </td>
+                <td>
+                    <input type="text" id="txtNoOfNights" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" id="btnSearch" value="Search Hotel" onclick="Hotel.SearchHotel()" />
+                </td>
+
+            </tr>
+        </table>
+        <br />
+        <br />
+
+        <table id="tblHotelData" style="width:100%;border:dashed;text-align:center">
+
+        </table>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/Hotel.js" asp-append-version="true"></script>
+    <script>
+        var FetchHotelUrl = "@Url.Action("GetHotels", "Hotel")";
+    </script>
+  
+</body>
+</html>
